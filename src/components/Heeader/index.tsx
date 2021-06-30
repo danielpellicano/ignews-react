@@ -1,4 +1,6 @@
+import React from 'react'
 import styles from './styles.module.scss'
+import {SignInButton} from '../SignInButton/'
 
 export function Header() {
     return(
@@ -9,6 +11,7 @@ export function Header() {
                     <a className={styles.active}>Home</a>
                     <a>Posts</a>
                 </nav>
+                <SignInButton />
             </div>
         </header>
     )
